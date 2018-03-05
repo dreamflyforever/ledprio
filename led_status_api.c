@@ -34,7 +34,6 @@ int set_led_flashing(led_color_t c,int mode)
 	log("c: %d, mode : %d\n", c, mode);
 	return 0;
 }
-
 #endif
 
 int led_set(int *sys_status, int status)

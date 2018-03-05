@@ -16,9 +16,6 @@ enum LED_STATUS {
 	SYSTEM_STARTING = 7
 };
 
-int led_set(int *sys_status, int status);
-int led_status_clear(int *sys_status, int status);
-int led_update(int *status, int s, int flag);
 int led_status_set_update(int *sys, int status);
 int led_status_clear_update(int *sys, int status);
 
